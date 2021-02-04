@@ -1,0 +1,13 @@
+START
+INP X
+INP Y
+CLA
+LOOP: LAC X #This is a Label
+ADD Y
+BRN LOOP
+DSP X
+END
+DS X # This declares a symbol
+DC ONE 1 # This declares a constant with value 1
+DS Y
+DC TEN 10
